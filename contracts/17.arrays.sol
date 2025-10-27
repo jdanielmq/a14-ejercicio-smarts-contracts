@@ -37,4 +37,7 @@ contract testArrays {
         return estudiantes[_index];
     }
 
+    function getLongitud() public view returns (uint) {
+        return estudiantes.length;
+    } 
 }
